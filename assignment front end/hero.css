@@ -1,0 +1,44 @@
+h1
+{		padding-top:100px;
+		text-align:center;
+		color:black;
+}
+.txt
+{
+	text-align:center;
+	color:black;
+	
+}
+
+.btn
+{
+	color:black;
+	width:60px;
+	height:10px;
+	
+	margin-top:50px;
+	text-align:center;
+	color:white;
+	border:1px solid black;
+	background-color:black;
+	padding:10px;
+	border-width:3px;
+	position:relative;
+	left:630px;
+	
+}
+.btn:hover
+{
+	background-color:pink;
+	
+	
+}
+body
+{
+	
+background-image:url(img/mesh.jpg);
+background-repeat:none;
+opacity:100px;
+background-image:center;
+}
+

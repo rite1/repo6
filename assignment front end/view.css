@@ -1,0 +1,125 @@
+.img
+{
+	background-image:url(img/forest.jpg);
+	width:400px;
+	height:400px;
+	opacity:50%;
+	
+	
+	
+}
+
+	
+.p{
+	color:violet;
+	width:1000px;
+	
+}
+.video
+{
+	opacity:4px;
+		position:absolute;
+		z-index:-2;
+		width:100% auto;
+		height:100% auto;
+	
+	
+	
+	
+	
+}
+
+@media screen and (max-width:520px) and (max-width:330px)
+{
+	.p{
+		width:100% auto;
+		height:100px auto;
+		
+		font-size:30px;
+	   }
+	   
+	   
+}	
+@media screen and (max-width:420px)
+{
+	.p{
+		width:100%;
+		height:auto;
+		font-size:20px;
+		
+	   }
+	   
+	   
+}  
+@media screen and (max-width:822px) 
+{
+	.p{
+		width:100%;
+		
+		
+	   }
+	   
+	   
+}
+@media screen and (max-width:920px) 
+{
+	.video{
+		width:100%;
+		
+		
+	   }
+	   
+	   
+}
+@media screen and (max-width:1022px)
+{
+	.p{
+		width:100%;
+		height:auto;
+		float:none;
+	   }
+	   
+	   
+}
+
+	
+@media screen and (max-width:1265px) and (max-width:1085px)
+{
+	.p{
+		width:100% auto;
+		height:auto;
+		float:none;
+	   }
+	   
+	  
+}
+	
+
+@media screen and (max-width:920px) 
+{
+	.video{
+		width:100% auto;
+		
+		
+	   }
+	   
+	   
+}
+
+
+image
+{
+
+width:100%;
+
+}
+
+video{
+	
+
+
+width:100%;	
+	
+	
+	
+}

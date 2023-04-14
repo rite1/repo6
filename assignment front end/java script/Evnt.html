@@ -1,0 +1,57 @@
+<html>
+<button id="btn">click me</button><br><br>
+
+
+<form action="" onsubmit="return validation()" name="myform" method="POST">
+<label>username</label>
+<input type="text" id="txt" ><p id="error" class="error"></p><br>
+
+<div><input type="submit" value="submit"></div>
+
+
+Name:<input type="text" name="name"><br><br>
+Email:<input type="email" name="email"><br><br>
+<input type="button" name="set" value="SetCookie" onclick="setCookies()">
+<input type="button" name="get" value="GetCookie" onclick="getCookies()"></form>
+<script type=text/javascript>
+let btn=document.getElementById('btn');
+btn.addEventListener('click',date)
+function date(){
+var today=new Date();
+document.write(today);
+};
+let usn=document.getElementById("txt")
+function validation()
+{
+	if(txt.value=="")
+	{
+		document.getElementById("error").innerHTML= "username is Empty" ;
+	}
+	else
+	{
+		return true;
+	};
+}
+var a=10;
+var b=20;
+if(a<b)
+{
+//console.error("error");
+}
+function setCookies()
+{
+
+document.cookie= "name="+document.myform.name.value;
+document.cookie= "email="+document.myform.email.value;
+}
+
+
+function getCookies()
+{
+	console.log(document.cookie);
+
+}
+
+
+</script>
+</html>

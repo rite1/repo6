@@ -1,0 +1,88 @@
+table,th,td
+{
+	
+	border-collapse:collapse;
+	border:2px solid black;
+	/*display:none;*/        /* hides the table    */
+	
+}
+td:hover
+{
+	background-color:blue;
+	display:inline;
+}
+h7
+{
+	height:400px;
+	width:1024px;
+	color:blue;
+	visibility:visible;
+	
+	
+	display:content
+	
+	
+	
+	
+}
+p
+{
+	visibility:hidden;
+	font-family:arial
+	color:red;
+}
+li
+{
+	
+	display:inline;
+}
+	
+	span
+	{
+		display:block;
+		padding:20px;
+		background-image:url(img/prr.jpg);
+		display:list-item;
+		color:red;
+		font-size:30px;
+		
+	}
+	
+	
+#test
+{
+	width250px;
+	height:400px;
+	margin:50px 20px;
+	border:1px solid #000;
+	overflow:auto;
+	
+}
+.jala
+{
+	
+height:80px;
+width:130px;
+border:1px blue;
+background-image:url(img/pr.jpg);
+overflow:auto;	
+	
+	
+	
+}
+.scroll{
+	
+	padding:70px;
+	display:grid;
+	height:50px;
+	place-items:center;
+	background-image:url(img/forest.jpg);
+	font-size:20px;
+	color:solidblack;
+}
+
+html
+{
+scroll-behavior:smooth;
+	
+}

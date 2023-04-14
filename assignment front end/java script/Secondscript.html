@@ -1,0 +1,80 @@
+<html>
+<button id="btn" onclick="this.style.display='none'">Click me to hide</button>
+<div class="" align="center">
+<span class="counter1" id="counter1" align="center">0</span>
+<div class ="" align="center"><button id="plus" onclick="change(1)">+&nbsp</button>
+<button id='minus' onclick="change(2)">-</button></div>
+<div  class ="" align="center"><button id="reset" onclick="change(3)">reset</button></div>
+</div>
+<script type="text/javascript">
+	var person =
+	{
+			firstname:"pawan",
+			lastname:"kumar",
+			sayhello()
+			{
+				document.write("Hello! i am "+this.firstname+" and i hava a "+car.brand+ "<br>");
+			}
+			
+			
+			
+	};
+		var car = {brand:"Tata",mode:"Safari"};
+		
+		
+		person.sayhello();
+		
+		
+		var Tata={name:"tiago",
+						model:2020
+						};
+						
+						var maruti={name:"wagonr",model:1990};
+						var hyundai={name:"verna",model:1995};
+						function vehicle()
+						{
+							document.write(this.name);
+						}
+						function vehicle2(a,b)
+						{
+							document.write(this.name+"<br>");
+						}
+						
+						
+		vehicle.call(maruti);
+		vehicle2.apply(hyundai,["creta",1976]);
+		var counter=document.querySelector('.counter1');
+					var i;
+					let count=1;	
+							function change(i){
+							if(i == 1)
+							{
+								count+=1;
+							}else if(i == 2)
+							{
+								count-=1;
+							
+							}
+							else if(i == 3)
+							{
+								count=0;
+							}
+							
+							counter.innerHTML=count;
+						}
+						
+						function stud(first,last,age){
+								this.firstname=first;
+								this.lastname=last;
+								this.age=age;
+								}
+								
+								var st1=new stud("raman","kumar",22);
+								document.write(st1);
+								console.log(st1);
+								stud.prototype.nationality="indian";
+								console.log(st1);
+								
+</script>
+
+</html>
